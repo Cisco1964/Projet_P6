@@ -3,54 +3,45 @@ header {
   border-bottom: 3px solid white;
   background-color: blue;
 }
-
 header .title {
   flex-direction: column;
   align-items: center;
   width: 30%;
 }
-
 header .title h1 {
   font-size: 2em;
 }
-
 header .title h1, header .title p {
   margin-top: 10px;
   margin-bottom: 25px;
   margin: 10px 20px 20px 20px;
 }
-
 header nav {
   display: flex;
   flex: 1;
   width: 70%;
   justify-content: space-around;
 }
-
 header nav h2 {
   display: flex;
   font-size: 1.5em;
   align-items: center;
 }
-
 #top-movie {
   display: flex;
   border-bottom: 2px solid black;
   background-color: yellowgreen;
   padding-left: 100px;
 }
-
 #top-movie article {
   width: 30%;
   text-align: center;
   vertical-align: bottom;
 }
-
 #top-movie article h1 {
   vertical-align: bottom;
   margin-top: 150px;
 }
-
 .best-movie_poster  {
   width: 300%;
   height: 400px;
@@ -60,7 +51,6 @@ header nav h2 {
   flex-direction: column;
   margin: 0 60px 0 25px;
 }
-
 .movie-top {
   width: 20%;
   height: 360px;
@@ -70,7 +60,6 @@ header nav h2 {
   flex-direction: column;
   margin: 0 40px 0 40px;
 }
-
 .movie-top h2 {
   margin-left: 10px;
   border-radius: 10px;
@@ -79,7 +68,6 @@ header nav h2 {
   color: black;
   display: inline-block;
 }
-
 .button {
   margin-left: 10px;
   width: 35%;
@@ -97,46 +85,38 @@ header nav h2 {
                                     rgba(0, 0, 0, .2) 30%,
                                     rgba(0, 0, 0, 0));
 }
-
 .button:hover {
   background-color: blue;
 }
-
 .button:active {
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
               inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
-
 .best-movie_description {
   font-size: 1em;
   padding: 10px 0 0 10px;
   width: 30%;
   overflow: scroll;
 }
-
 .categories {
   display: flex;
   flex-direction: column;
 }
-
 .categories .category {
   margin-top: 10px;
   height: 435px;
 }
-
 .categories .category > h2 {
   margin: 0;
   padding: 20px 0 20px 0;
   text-align: center;
   border-top: 2px solid white;
 }
-
 .categories .category__best-movies {
   display: flex;
   justify-content: center;
   width: 100%;
 }
-
 .categories .category__best-movies__movies {
   display: flex;
   justify-content: center;
@@ -144,22 +124,18 @@ header nav h2 {
   width: 100%;
   height: auto;
 }
-
 .categories .category__best-movies .side-arrow {
   display: flex;
   justify-content: center;
   height: 360px;
 }
-
 .categories .category__best-movies .side-arrow.left {
   position: relative;
   left: 0px;
 }
-
 .categories .category__best-movies .side-arrow.right {
   float: right;
 }
-
 .categories .category__best-movies .side-arrow p {
   font-weight: 900;
   font-size: 4em;
@@ -169,19 +145,16 @@ header nav h2 {
   top: 75px;
   height: 70px;
 }
-
 .categories .category__best-movies .side-arrow p:hover {
   font-size: 5em;
   top: 50px;
   height: 95px;
 }
-
 .categories .category__best-movies .side-arrow.side-arrow--disable p:hover {
   font-size: 4em;
   top: 75px;
   height: 70px;
 }
-
 .movie {
   width: 18%;
   height: 360px;
@@ -191,7 +164,6 @@ header nav h2 {
   flex-direction: column;
   margin: 0 40px 0 40px;
 }
-
 .movie h2 {
   margin-left: 10px;
   opacity: 70%;
@@ -199,24 +171,20 @@ header nav h2 {
   color: black;
   display: inline-block;
 }
-
 .movie article {
   background-repeat: no-repeat;
   height: 100%;
   background-size: 100%;
 }
-
 .movie:hover h2 {
   visibility: hidden;
 }
-
 .movie--hidden {
   visibility: collapse;
   width: 0;
   padding: 0;
   margin: 0;
 }
-
 .modal {
   width: 100%;
   height: 100%;
@@ -227,7 +195,6 @@ header nav h2 {
   background-color: rgba(255, 255, 255, 0.5);
   visibility: hidden;
 }
-
 .modal div {
   background-color: white;
   border: 3px solid black;
@@ -243,14 +210,12 @@ header nav h2 {
   box-shadow: 0 3px 20px rgba(0,0,0,0.9);
   text-shadow: 0 1px #fff;
 }
-
 .modal div p {
   width: 90%;
   font-size: 2em;
   color: black;
   overflow: scroll;
 }
-
 .modal div button {
   width: 40px;
   font-size: 2em;
@@ -263,23 +228,19 @@ header nav h2 {
   background-color: rgba(71, 61, 61, 0.95);
   z-index: 3;
 }
-
 .modal div .close:hover {
   border: 3px solid red;
   cursor: pointer;
 }
-
 .modal div .close:active {
   background-color: red;
 }
-
 .modal a[href="#close"]{
   position: absolute;
   right: 0;
   top: 0;
   color: transparent;
 }
-
 .modal a[href="#close"]:after{
   content: 'X';
   display: block;
@@ -298,12 +259,10 @@ header nav h2 {
   border-radius: 20px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }
-
 .modal a[href="#close"]:focus:after, 
 .modal a[href="#close"]:hover:after {
   transform: scale(1,1,1,1)
 }
-
 .modal a[href="#close"]:focus:after{
   outline: 1px solid #000;
 }
