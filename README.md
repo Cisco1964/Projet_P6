@@ -8,6 +8,8 @@ Lors d'un clic sur un des films, une fenêtre modale contenant différentes info
 https://github.com/OpenClassrooms-Student-Center/OCMovies-API-EN-FR
 # Copier dans un répertoire les éléments disponible sur le lien github suivant:
 
+Code source complet du projet (HTML, CSS, JS).
+
 https://github.com/Cisco1964/Projet_P6.git
 # Lancement du site
 
